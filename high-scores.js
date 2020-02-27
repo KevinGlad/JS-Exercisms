@@ -1,30 +1,26 @@
 //
-// This is only a SKELETON file for the 'Linked List' exercise. It's been provided as a
+// This is only a SKELETON file for the 'High-Scores' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
 
-export class LinkedList {
-  push() {
+export class HighScores {
+  constructor() {
     throw new Error("Remove this statement and implement this function");
   }
 
-  pop() {
+  get scores() {
     throw new Error("Remove this statement and implement this function");
   }
 
-  shift() {
+  get latest() {
     throw new Error("Remove this statement and implement this function");
   }
 
-  unshift() {
+  get personalBest() {
     throw new Error("Remove this statement and implement this function");
   }
 
-  delete() {
-    throw new Error("Remove this statement and implement this function");
-  }
-
-  count() {
+  get personalTopThree() {
     throw new Error("Remove this statement and implement this function");
   }
 }
