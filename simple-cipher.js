@@ -12,7 +12,7 @@
 // we need a way to handle adding an offset past the end of our alphabet, e.g. z + 2
 
 function getAlphaPos(char, alpha) {
- 
+
   return alpha.indexOf(char)
 }
 
@@ -86,7 +86,7 @@ export class Cipher {
 
       // add shift value to orginal letter
       // if original letter plus shift value is > the length of alphabet, start over a front of alphabet
-      rtnVal += getCypherCar(charPos,keyPos, this.alpha)
+      rtnVal += getCypherCar(charPos, keyPos, this.alpha)
 
     }
 
@@ -106,11 +106,11 @@ export class Cipher {
       // look up value of letter from key in alphabet array to get shift value
       // create an array of letters of the alphabet
       let charPos = getAlphaPos(char.toLowerCase(), this.alpha)
-      let keyPos = getAlphaPos(keyChar,this.alpha)
+      let keyPos = getAlphaPos(keyChar, this.alpha)
 
       // add shift value to orginal letter
       // if original letter plus shift value is > the length of alphabet, start over a front of alphabet
-      rtnVal += getOrgCar(charPos,keyPos, this.alpha)
+      rtnVal += getOrgCar(charPos, keyPos, this.alpha)
 
     }
 
