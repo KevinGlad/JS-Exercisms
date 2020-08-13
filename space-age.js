@@ -19,3 +19,5 @@ export const age = (planet, seconds) => {
   // convert to earth years then to the planet years.
   return parseFloat(((seconds / EARTH_SECONDS) / orbits[planet]).toFixed(2))
 }
+
+
