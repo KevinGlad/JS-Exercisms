@@ -4,7 +4,7 @@
 //
 
 export const isPangram = (phrase) => {
-  let  letters = "abcdefghijklmnopqrstuvwxys"
+  let  letters = "abcdefghijklmnopqrstuvwxyz"
   let compare = phrase.toLowerCase()
   let found = true
 
